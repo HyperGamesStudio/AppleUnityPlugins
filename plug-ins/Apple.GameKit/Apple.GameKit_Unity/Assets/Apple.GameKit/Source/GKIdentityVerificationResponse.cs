@@ -10,10 +10,10 @@ namespace Apple.GameKit.Players
         /// The URL for the public encryption key.
         /// </summary>
         public string PublicKeyUrl;
-        internal IntPtr Signature;
-        internal int SignatureLength;
-        internal IntPtr Salt;
-        internal int SaltLength;
+        public IntPtr Signature;
+        public int SignatureLength;
+        public IntPtr Salt;
+        public int SaltLength;
         /// <summary>
         /// The signatureâ€™s creation date and time.
         /// </summary>
